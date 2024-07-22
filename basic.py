@@ -29,3 +29,11 @@ plt.imshow(gray_image,cmap='gray')
 plt.axis('off')
 plt.show()
 
+#####################
+#3. image resize
+#################
+
+resized_image = cv2.resize(image,(100,100)) #get resized to 100x100 pixels
+plt.imshow(cv2.cvtColor(resized_image,cv2.COLOR_BGR2RGB))
+plt.axis('off')
+plt.show()
